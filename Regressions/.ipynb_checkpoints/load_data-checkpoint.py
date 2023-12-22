@@ -10,3 +10,4 @@ def load_model(feature: int = 0):
             y.append(i[-1])
         x, y = np.array(x), np.array(y)
     return x, y
+
